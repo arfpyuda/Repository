@@ -1,0 +1,14 @@
+Remove a PPA from the source list in terminal:
+
+  Alternatively, you can remove the PPA from sources list where these PPAs are stored.
+  PPAs are store in the form of PPA_Name.list. Use the following command to see all the PPAs added in your system:
+  
+  - sudo ls /etc/apt/sources.list.d
+  
+  Look for your desire PPA here and then remove the PPA using the following command:
+  
+  - sudo rm -i /etc/apt/sources.list.d/PPA_Name.list
+  
+  
+  =======================================================================================================================
+  https://itsfoss.com/how-to-remove-or-delete-ppas-quick-tip/
